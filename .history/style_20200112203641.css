@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right top, #093637, #44A08D);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+/* .container {
+    box-sizing: border-box;
+    box-shadow: 4px 5px 5px solid black;
+} */
+
+.container {}

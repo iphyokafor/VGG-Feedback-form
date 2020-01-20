@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VGG feedback form</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div>
+        <form action="action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="name" placeholder="Your firstname..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="surname">Surname</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="surname" name="surname" placeholder="Your surname..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="dob">Date of Birth</label>
+                </div>
+                <div class="col-75">
+                    <input type="date" id="date" name="date">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="sex">Sex</label>
+                </div>
+                <div class="col-75">
+                    <!-- <input type="radio" name="gender">Male<br>
+                    <input type="radio" name="gender">Female<br>
+                    <input type="radio" name="gender">Other -->
+                    <label>Male
+                      <input type="radio" checked="checked">
+                      <span class="checkmark"></span>
+                    </label>
+
+                    <label>Female
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+
+                    <label>Other
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="VGG internship">VGG internship track</label>
+                </div>
+                <div class="col-75">
+                    <select id="VGG internship" name="VGG">
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+            <option value="ui/ux">UI/UX</option>
+            <option value="software">Software Quality Assurance</option>
+            <option value="devops">DevOps</option>
+          </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="feedback">Feedback</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="feedback" name="feedback" placeholder="What do you hope to accomplish after the internship.." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

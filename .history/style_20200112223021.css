@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right top, #093637, #44A08D);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+/* .container {
+    box-sizing: border-box;
+    box-shadow: 4px 5px 5px solid black;
+} */
+
+form {
+    /* margin: auto;
+    padding: 20px; */
+}
+
+#VGG-form .txtinput {
+    display: block;
+    font-family: "helvetica neue", Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dedede;
+    margin-bottom: 20px;
+    font-size: 1.55em;
+    padding: 11px 25px;
+    padding-left: 55px;
+    width: 90%;
+    color: #777;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+    transition: border 0.15s linear 0s, linear 0s, color 0.15s linear 0s;
+}
+
+#VGG-form .txtinput:focus {
+    color: #333;
+    border-color: rgba(41, 92, 161, 0.4);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(41, 92, 161, 0.6);
+    outline: 0 none;
+}

@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: linear-gradient(to right top, #093637, #44A08D);
+}
