@@ -6,7 +6,7 @@ body {
     flex-wrap: wrap;
     background: linear-gradient(to right top, #093637, #44A08D);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
 }
 
 .txtinput,
@@ -55,6 +55,8 @@ label {
 /* Style the container */
 
 .container {
+    display: flex;
+    justify-content: center;
     height: 85vh;
     margin-top: 20px;
     border-radius: 5px;

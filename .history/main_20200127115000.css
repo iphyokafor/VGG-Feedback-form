@@ -6,7 +6,7 @@ body {
     flex-wrap: wrap;
     background: linear-gradient(to right top, #093637, #44A08D);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
 }
 
 .txtinput,
@@ -61,7 +61,7 @@ label {
     background-color: #f2f2f2;
     padding: 20px;
     box-shadow: -8px 5px 8px rgba(0, 0, 0, 0.8);
-    transition: border 0.15s linear 0s, linear 0s, color 0.15s linear 0s;
+    /* transition: border 0.15s linear 0s, linear 0s, color 0.15s linear 0s; */
 }
 
 .heading {

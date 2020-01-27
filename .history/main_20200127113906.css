@@ -38,13 +38,12 @@ label {
 .btn {
     background: linear-gradient(to left bottom, #093637, #44A08D);
     color: white;
-    padding: 9px 16px;
+    padding: 10px 18px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     float: right;
     transition: all 1s;
-    margin-top: 2px 2px;
 }
 
 .btn:hover {
@@ -55,7 +54,7 @@ label {
 /* Style the container */
 
 .container {
-    height: 85vh;
+    height: 90vh;
     margin-top: 20px;
     border-radius: 5px;
     background-color: #f2f2f2;
